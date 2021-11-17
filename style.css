@@ -105,9 +105,10 @@ h3 {
 }
 
 .bottom-container {
+  text-align: center;
   margin-top: 60px;
   background-color: #00818A;
-  padding: 20px;
+  padding: 10px;
 }
 
 .get-in-touch {
@@ -124,27 +125,58 @@ h3 {
 }
 
 .contact-me-btn {
-  background-color: #A4EBF3;
+  background-color: #DBEDF3;
   color: #404B69;
   font-weight: bold;
+}
+
+.contact-me-btn:hover
+{
+  background-color:#00818A;
 }
 
 .socials {
   position: relative;
   font-size: 20px;
-  padding: 0 20px 0 0;
+  padding: 20px;
   color: #322d6e;
 }
 
 .socials:hover {
+  color: #DBEDF3;
+}
+
+.open-source
+{
   color: #322d6e;
-  font-size: 30px;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.open-source a
+{
+  text-align: center;
+  text-decoration: none;
+  color: #322d6e;
+}
+
+.open-source a:hover
+{
+  color: #DBEDF3;
+  text-decoration: underline;
+  font-weight: lighter;
+
+  /* This prevents movement of other text when the weight is changed to lighter from bold on hover */
+  letter-spacing: 0.5px;
 }
 
 .copyright {
-  color: #DBEDF3;
+  color: #9dabb0;
   font-size: 0.69rem;
-  padding-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  letter-spacing: 1.5px;
 }
 
 @media (max-width: 974px) {
